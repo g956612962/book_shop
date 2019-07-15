@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#title {
+    background: #4B4B4B;
+    line-height: 35px;
+}
+
+#title span {
+    margin-left: 20px;
+    font-style: oblique;
+    color: red;
+}
+
+#title strong {
+    color: #6A6A6A;
+}
+
+#title div {
+    float: right;
+    color: #ffffff;
+    margin-right: 30px;
+}
+
+#box {
+    width: 1000px;
+    height: 700px;
+    background: #F4F4F4;
+    margin: auto;
+}
+
+#box div {
+    float: left;
+}
+
+#box1 {
+    height: 600px;
+    width: 300px;
+}
+
+#box1 div {
+    margin-top: 10px;
+    width: 200px;
+    height: 120px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+}
+
+#box1 div h3 {
+    line-height: 35px;
+    font-size: 15px;
+    background: #EAEAEA;
+}
+
+#box1 div p a {
+    margin-left: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #86CFEE;
+    margin-top: 10px;
+}
+
+#box2 {
+    width: 650px;
+    height: 600px;
+    border: 1px solid red;
+}
+
+#box2 input {
+    margin-top: 5px;
+}
+
+#box2 textarea {
+    margin-top: 5px;
+}

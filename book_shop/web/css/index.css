@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Arial", "微软雅黑";
+}
+
+body {
+    height: 100%;
+}
+
+header {
+    width: 100%;
+}
+
+header div {
+    margin: auto;
+}
+
+header #header-one {
+    width: 1200px;
+    height: 25px;
+
+}
+
+header #header-1 {
+    height: 25px;
+    width: 100%;
+    margin: auto;
+    line-height: 25px;
+    background: #F7F7F7;
+}
+
+header #header-11 {
+    float: left;
+}
+
+header #header-12 {
+    float: right;
+}
+
+header #header-12 div {
+    float: left;
+    margin-left: 50px;
+}
+
+header #header-12 #header-122 #header-123 a {
+    margin-left: 20px;
+}
+
+header #header-12 #header-122 #header-124 a {
+    color: red;
+}
+
+header #header-2 {
+    height: 100px;
+    /*background: green;*/
+    width: 1200px;
+    margin: auto;
+    line-height: 100px;
+}
+
+header #header-2 div {
+    float: left;
+    margin-left: 50px;
+}
+
+header #header-2 h2 {
+    font-size: 50px;
+    font-family: 隶书;
+}
+
+
+header #header-2 form #in1 {
+    width: 350px;
+    height: 30px;
+}
+
+header #header-2 form #in2 {
+    width: 60px;
+    height: 30px;
+    background: red;
+    color: #ffffff;
+}
+
+header #header-2 span {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+header #header-2 #header-2-last {
+    float: right;
+}
+
+header #header-3 {
+    width: 100%;
+    height: 40px;
+    background: #E4393C;
+}
+
+header #header-31 {
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    margin: auto;
+    color: #ffffff;
+}
+
+header #header-3 #header-32 {
+    background: #C91518;
+    width: 200px;
+}
+
+header #header-31 div {
+    float: left;
+}
+
+header #header-31 div ul li {
+    float: left;
+    text-align: center;
+    /*background: green;*/
+    width: 100px;
+}
+
+header #header-31 div ul li a {
+    color: #ffffff;
+}
+
+section {
+    width: 1200px;
+    /*background: green;*/
+    margin: auto;
+    height: 1000px;
+}
+
+section div {
+    float: left;
+}
+
+section #section-first {
+    width: 199px;
+    height: 452px;
+    border: 1px solid red;
+}
+
+section #section-first {
+    font-family: 隶书;
+    font-size: 12px;
+    color: #666666;
+}
+
+section #section-first div h4 {
+    color: #000;
+    font-family: 新宋体;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+section #section-first div a {
+    display: inline-block;
+    margin-top: 5px;
+
+}
+
+section #section-second {
+    float: left;
+    width: 990px;
+    height: 400px;
+}
+
+section #section-second div p {
+    display: inline-block;
+    line-height: 25px;
+    text-align: center;
+}
+
+section #section-second div #p {
+    display: inline-block;
+    float: right;
+}
+
+section div ul li {
+    width: 190px;
+    height: 200px;
+    float: left;
+    border: 1px solid #F7F7F7;
+    text-align: center;
+}
+
+section .section-21 strong {
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px;
+}
+
+section .section-21 a {
+    font-size: 10px;
+}
+
+section .section-21 ul li {
+    width: 230px;
+    height: 200px;
+    float: left;
+    border: 1px solid darkgrey;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background: #4dc83a;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+
+
+
+

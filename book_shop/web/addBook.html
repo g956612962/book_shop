@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加图书</title>
+    <link href="css/addBook.css" rel="stylesheet">
+</head>
+<body>
+<div id="title">
+    <span>四川省  成都市</span>------<strong>华轩书海商城</strong>
+    <div>
+        欢迎你，admin
+    </div>
+</div>
+<div id="box">
+    <div id="box1">
+        <div>
+            <h3>返回首页</h3>
+            <p><a href="">返回首页</a></p>
+        </div>
+        <div>
+            <h3>我的购物车</h3>
+            <p><a href="">购物车</a></p>
+            <p><a href="">我的订单</a></p>
+        </div>
+        <div>
+            <h3>用户管理</h3>
+            <p><a href="">用户列表</a></p>
+            <p><a href="">在线用户</a></p>
+        </div>
+        <div>
+            <h3>图书管理</h3>
+            <p><a href="selectBookList.do">查询图书</a></p>
+            <p><a href="">添加图书</a></p>
+            <p><a href="">修改图书</a></p>
+            <p><a href="">删除图书</a></p>
+        </div>
+        <div>
+            <h3>图书类别管理</h3>
+            <p><a href="bookClassSelect.do">查询图书</a></p>
+            <p><a href="">添加图shu书</a></p>
+            <p><a href="">修改图书</a></p>
+            <p><a href="">删除图书</a></p>
+        </div>
+    </div>
+    <div id="box2">
+        <h1>添加图书</h1>
+        <div>
+            <form action="bookAdd.do" enctype="multipart/form-data" method="post">
+                选择类别:
+                <select name="className">
+                    <option value="儿童">儿童</option>
+                    <option value="老人">老人</option>
+                    <option value="年轻">年轻</option>
+                </select><br>
+                书籍名字：<input name="bookname" type="text"><br>
+                书籍价格：<input name="money" type="text"><br>
+                书籍数量：<input name="num" type="text"><br>
+                书籍作者：<input name="author" type="text"><br>
+                书籍出版：<input name="address" type="text"><br>
+                书籍描述：<textarea name="information" type="text"></textarea><br>
+                书面封皮：<input name="nfile" type="file"><br>
+
+                <input type="submit" value="添加">
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
